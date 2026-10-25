@@ -1,0 +1,9 @@
+#BlueJ class context
+#Sat Oct 24 17:34:33 COT 2026
+comment0.target=Visibility
+comment0.text=\r\n Contrato de todo lo que se puede mostrar u ocultar en el simulador\:\r\n las figuras, los simbolos, las ruedas y la maquina completa.\r\n\r\n @author Juan Castellanos - Nicole Paez\r\n @version 1.0\r\n
+comment1.target=void makeVisible()
+comment1.text=\r\n Hace visible el elemento en el canvas.\r\n
+comment2.target=void makeInvisible()
+comment2.text=\r\n Hace invisible el elemento en el canvas.\r\n
+numComments=3

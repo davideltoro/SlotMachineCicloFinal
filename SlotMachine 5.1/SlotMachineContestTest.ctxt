@@ -1,0 +1,8 @@
+#BlueJ class context
+#Sat Oct 24 22:51:29 COT 2026
+comment0.target=SlotMachineContestTest
+comment0.text=\r\n Pruebas unitarias para SlotMachineContest1.\r\n\r\n @author Juan Castellanos - Nicole Paez\r\n @version 1.0\r\n
+comment1.target=void testSolveReturnsWellFormedActions()
+comment2.target=void testSolveWorksForDifferentSizes()
+comment3.target=void testSolveWithOneWheelDoesNotCrash()
+numComments=4

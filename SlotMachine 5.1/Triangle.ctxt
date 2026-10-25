@@ -1,0 +1,28 @@
+#BlueJ class context
+#Sat Oct 24 17:34:33 COT 2026
+comment0.target=Triangle
+comment0.text=\r\n Un triangulo que se dibuja en el canvas. La posicion es la de la\r\n punta de arriba.\r\n\r\n @author  Michael Kolling and David J. Barnes (modificado)\r\n @version 2.0\r\n
+comment1.target=Triangle()
+comment1.text=\r\n Crea un triangulo verde en la posicion por defecto.\r\n
+comment2.params=h w posX posY c
+comment2.target=Triangle(int, int, int, int, java.lang.String)
+comment2.text=\r\n Ciclo 4\r\n Crea un triangulo con el tamano, la posicion y el color dados.\r\n @param h alto del triangulo\r\n @param w ancho de la base del triangulo\r\n @param posX posicion horizontal de la punta de arriba\r\n @param posY posicion vertical de la punta de arriba\r\n @param c color del triangulo\r\n
+comment3.params=newColor newHeight newWidth
+comment3.target=Triangle(java.lang.String, int, int)
+comment3.text=\r\n Crea un triangulo dado su color, altura y ancho.\r\n @param newColor color\r\n @param newHeight alto\r\n @param newWidth ancho\r\n
+comment4.params=newHeight newWidth
+comment4.target=void changeSize(int, int)
+comment4.text=\r\n Cambia el tamano del triangulo. Ignora valores no positivos.\r\n @param newHeight el nuevo alto en pixeles\r\n @param newWidth el nuevo ancho en pixeles\r\n
+comment5.target=double area()
+comment5.text=\r\n @return el area del triangulo\r\n
+comment6.target=void equilateral()
+comment6.text=\r\n Convierte el triangulo en equilatero conservando su area.\r\n
+comment7.params=times
+comment7.target=void walks(int)
+comment7.text=\r\n Camina en diagonal hacia la derecha (positivo) o la izquierda (negativo).\r\n @param times cantidad de pasos\r\n
+comment8.params=positionx positiony
+comment8.target=void changePositionXandY(int, int)
+comment8.text=\r\n Cambia la posicion x y y del triangulo.\r\n @param positionx nueva posicion horizontal\r\n @param positiony nueva posicion vertical\r\n
+comment9.target=void draw()
+comment9.text=\r\n Dibuja el triangulo en el canvas, si es visible.\r\n
+numComments=10

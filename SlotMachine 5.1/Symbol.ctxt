@@ -1,0 +1,26 @@
+#BlueJ class context
+#Sat Oct 24 17:34:33 COT 2026
+comment0.target=Symbol
+comment0.text=\r\n Un simbolo de la maquina tragamonedas, identificado por su color.\r\n Cada simbolo dibuja su propio circulo en el canvas.\r\n \r\n @author Juan Castellanos - Nicole Paez\r\n @version 1.0\r\n
+comment1.params=color
+comment1.target=Symbol(java.lang.String)
+comment1.text=\r\n Crea un simbolo con el color dado.\r\n @param color el color del simbolo (nombre CSS, ej. "red")\r\n
+comment10.target=boolean isShown()
+comment11.target=java.lang.String getShape()
+comment11.text=\r\n @return la forma con que se dibuja el simbolo\: "circle", "square" o "triangle"\r\n
+comment2.params=color figure
+comment2.target=Symbol(java.lang.String, Shape)
+comment3.target=void makeVisible()
+comment3.text=\r\n Hace visible el simbolo en el canvas.\r\n
+comment4.target=void makeInvisible()
+comment4.text=\r\n Hace invisible el simbolo en el canvas.\r\n
+comment5.target=java.lang.String getColor()
+comment5.text=\r\n @return el color del simbolo\r\n
+comment6.params=x y
+comment6.target=void placeAt(int, int)
+comment6.text=\r\n Mueve el circulo del simbolo a la posicion absoluta (x, y).\r\n Se usara para ubicarlo dentro de la ventana de una rueda.\r\n @param x posicion horizontal destino\r\n @param y posicion vertical destino\r\n
+comment7.target=void onSelected()
+comment8.target=void onSpin()
+comment8.text=\r\n Ciclo 4\r\n La maquina lo llama en cada giro. El simbolo normal no hace nada;\r\n los tipos de simbolo pueden redefinirlo.\r\n
+comment9.target=int getSize()
+numComments=12

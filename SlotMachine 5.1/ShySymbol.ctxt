@@ -1,0 +1,11 @@
+#BlueJ class context
+#Sat Oct 24 17:34:33 COT 2026
+comment0.target=ShySymbol
+comment0.text=\r\n Clase Shy\: hija de Symbol. Este simbolo es timido\:\r\n alterna entre visible e invisible cada vez que la rueda es seleccionada.\r\n\r\n @author Juan Castellanos - Nicole Paez\r\n @version 1.0\r\n
+comment1.params=color
+comment1.target=ShySymbol(java.lang.String)
+comment2.target=void onSelected()
+comment2.text=\r\n Alterna entre visible e invisible. Solo cambia el estado\: la rueda\r\n es la que dibuja el cuadrado (o lo oculta) consultando isShown().\r\n
+comment3.target=boolean isShown()
+comment4.target=java.lang.String getShape()
+numComments=5

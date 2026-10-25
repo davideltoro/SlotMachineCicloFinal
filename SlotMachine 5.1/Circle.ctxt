@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sat Oct 24 17:34:33 COT 2026
+comment0.target=Circle
+comment0.text=\r\n Un circulo que se dibuja en el canvas.\r\n\r\n @author  Michael Kolling and David J. Barnes (modificado)\r\n @version 2.0\r\n
+comment1.target=Circle()
+comment1.text=\r\n Crea un circulo azul en la posicion por defecto.\r\n
+comment2.params=diam posX posY c
+comment2.target=Circle(int, int, int, java.lang.String)
+comment2.text=\r\n Crea un circulo con el diametro, la posicion y el color dados.\r\n @param diam diametro\r\n @param posX posicion horizontal\r\n @param posY posicion vertical\r\n @param c color\r\n
+comment3.params=newDiameter
+comment3.target=void changeSize(int)
+comment3.text=\r\n Cambia el tamano del circulo.\r\n @param newDiameter el nuevo diametro (en pixeles), debe ser >\= 0\r\n
+comment4.target=void draw()
+comment4.text=\r\n Dibuja el circulo en el canvas, si es visible.\r\n
+numComments=5

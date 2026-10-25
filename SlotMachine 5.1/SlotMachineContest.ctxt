@@ -1,0 +1,18 @@
+#BlueJ class context
+#Sat Oct 24 22:51:29 COT 2026
+comment0.target=SlotMachineContest
+comment0.text=\r\n Maraton Slot Machine (ciclo 3) y pruebas de aceptacion del proyecto.\r\n Las pruebas de aceptacion son metodos estaticos\: corren visibles, con\r\n pausas, y escriben en la terminal lo obtenido y lo esperado.\r\n\r\n @author  Juan Castellanos - Nicole Paez\r\n @version 2.2\r\n
+comment1.params=n
+comment1.target=int[][] solve(int)
+comment1.text=\r\n Resuelve el problema Slot Machine (ciclo 3) Corre de forma invisible.\r\n\r\n @param n ruedas/simbolos de la maquina.\r\n @return acciones {wheel, steps} que llevan la maquina al jackpot.\r\n
+comment2.params=n
+comment2.target=void simulate(int)
+comment2.text=\r\nmetodo para simular el problema de la maraton en modo visible\r\n @param n ruedas/simbolos de la maquina a simular.\r\n
+comment3.params=m n
+comment3.target=int[][] resolver(SlotMachine, int)
+comment3.text=\r\n Corre el algoritmo completo sobre una maquina ya creada, y\r\n devuelve las acciones que de verdad se aplicaron.\r\n\r\n @param m maquina ya creada (invisible o visible, no importa).\r\n @param n ruedas/simbolos de esa maquina.\r\n @return la secuencia de acciones {wheel, steps} aplicadas.\r\n @throws SlotMachineException si alguna operacion de la maquina falla\r\n
+comment4.target=void acceptanceTest1()
+comment4.text=\r\n Prueba de aceptacion 1\: el usuario arma una maquina y la deja en jackpot.\r\n Ciclo 1\: crear, colocar, consultar y eliminar.\r\n Ciclo 2\: swap, lock, spin(set) y spin(pasos).\r\n
+comment5.target=void acceptanceTest2()
+comment5.text=\r\n Prueba de aceptacion 2\: tipos de ruedas y simbolos (ciclo 4) y solver (ciclo 3).\r\n El efimero y el timido se comprueban mirando la pantalla.\r\n
+numComments=6

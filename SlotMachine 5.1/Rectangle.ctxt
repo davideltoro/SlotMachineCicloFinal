@@ -1,0 +1,15 @@
+#BlueJ class context
+#Sat Oct 24 17:34:33 COT 2026
+comment0.target=Rectangle
+comment0.text=\r\n Un rectangulo que se dibuja en el canvas.\r\n\r\n @author  Michael Kolling and David J. Barnes (modificado)\r\n @version 2.0\r\n
+comment1.target=Rectangle()
+comment1.text=\r\n Crea un rectangulo magenta en la posicion por defecto.\r\n
+comment2.params=h w posX posY c
+comment2.target=Rectangle(int, int, int, int, java.lang.String)
+comment2.text=\r\n Crea un rectangulo con el tamano, la posicion y el color dados.\r\n @param h alto\r\n @param w ancho\r\n @param posX posicion horizontal\r\n @param posY posicion vertical\r\n @param c color\r\n
+comment3.params=newHeight newWidth
+comment3.target=void changeSize(int, int)
+comment3.text=\r\n Cambia el tamano del rectangulo.\r\n @param newHeight el nuevo alto en pixeles, debe ser >\= 0\r\n @param newWidth el nuevo ancho en pixeles, debe ser >\= 0\r\n
+comment4.target=void draw()
+comment4.text=\r\n Dibuja el rectangulo en el canvas, si es visible.\r\n
+numComments=5

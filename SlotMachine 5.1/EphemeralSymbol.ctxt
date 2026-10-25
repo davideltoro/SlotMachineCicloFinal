@@ -1,0 +1,14 @@
+#BlueJ class context
+#Sat Oct 24 17:34:33 COT 2026
+comment0.target=EphemeralSymbol
+comment0.text=\r\n Simbolo efimero\: en cada giro de la maquina reduce su tamano hasta\r\n quedar como un punto. Se dibuja como un triangulo para distinguirlo.\r\n\r\n @author Juan Castellanos - Nicole Paez\r\n @version 1.0\r\n
+comment1.params=color
+comment1.target=EphemeralSymbol(java.lang.String)
+comment1.text=\r\n Crea un simbolo efimero con el color dado y su tamano inicial.\r\n @param color el color del simbolo (nombre CSS, ej. "red")\r\n
+comment2.target=void onSpin()
+comment2.text=\r\n En cada giro reduce su tamano en 2, hasta quedar como un punto\r\n de tamano 4 (no desaparece).\r\n
+comment3.target=int getSize()
+comment3.text=\r\n @return el tamano actual del simbolo\r\n
+comment4.target=java.lang.String getShape()
+comment4.text=\r\n @return "triangle"\: el efimero se dibuja como triangulo\r\n
+numComments=5
