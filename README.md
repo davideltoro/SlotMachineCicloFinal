@@ -1,5 +1,7 @@
 **SLOT MACHINE CICLO FINAL**
 - *NICOLE PAEZ - JUAN CASTELLANOS*
+
+  
 **Caso:**
 Laura acaba de recibir una máquina tragamonedas nueva para su casino. Cuando la abre, está vacía: solo tiene la caja azul, la base y la palanca. Lo primero que hace es ponerle símbolos: un rojo, un azul y un verde, y después un amarillo, que decide poner de primero. Por error intenta meter otro rojo, pero la máquina le avisa que ese color ya existe.
 
